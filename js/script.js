@@ -12,11 +12,6 @@ function consultar(){
             $("#bairro").html(response.bairro);
             $("#logradouro").html(response.logradouro);
             $("#localidade").html(response.localidade);
-            $("#cep").show();
       }
    })
 }   
-
-$(function(){
-      $("#cep").hide();
-   })
